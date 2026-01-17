@@ -22,3 +22,33 @@ I have implemented the following cloud-native patterns within this project:
 ├── config-maps/       # Environment-specific configuration files
 ├── scripts/           # Helper scripts for minikube/kubectl setup
 └── README.md          # Technical documentation
+🛠️ Prerequisites & Setup
+To run these manifests locally, ensure you have a cluster running (Minikube/Docker Desktop/K3s).
+
+Clone the Labs:
+
+Bash
+
+git clone [https://github.com/heyrohhh/practisedkubernete.git](https://github.com/heyrohhh/practisedkubernete.git)
+cd practisedkubernete
+Apply Manifests:
+
+Bash
+
+kubectl apply -f deployments/
+kubectl apply -f services/
+Verify Status:
+
+Bash
+
+kubectl get all
+💡 Why this Repo? (DevOps Perspective)
+As an aspiring DevOps Engineer, I built this to demonstrate proficiency in:
+
+YAML manifest writing and validation.
+
+Understanding of K8s Networking and inter-pod communication.
+
+Managing Stateful vs Stateless applications in a cluster.
+
+Maintained by: [Your Name]
